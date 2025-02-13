@@ -41,6 +41,7 @@ def play_game():
 
 while True:
 print("
+
 while True:
     print("\nEnter your choice (rock, paper, or scissors). Type 'quit' to end the game.")
     user_choice = input().lower()
