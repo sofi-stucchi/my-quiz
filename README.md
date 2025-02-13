@@ -43,9 +43,10 @@ while True:
     print("\nEnter your choice (rock, paper, or scissors). Type 'quit' to end the game.")
     user_choice = input().lower() 
     
-    if user_choice == 'quit':
-        break
-        
+    if user_choice =='quit':
+    break
+    if user_choice
+    
     if user_choice not in ['rock', 'paper', 'scissors']:
         print("Invalid choice, please choose rock, paper, or scissors.")
         continue
