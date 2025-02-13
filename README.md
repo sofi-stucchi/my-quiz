@@ -40,12 +40,9 @@ def play_game():
     ties = 0
 
 while True:
-print("
-
-while True:
     print("\nEnter your choice (rock, paper, or scissors). Type 'quit' to end the game.")
     user_choice = input().lower()
-
+    
     if user_choice == 'quit':
         break
         
