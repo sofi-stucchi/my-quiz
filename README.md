@@ -38,6 +38,7 @@ def play_game():
     wins = 0
     losses = 0
     ties = 0
+
 while True:
 print("
     
