@@ -38,6 +38,8 @@ def play_game():
     wins = 0
     losses = 0
     ties = 0
+while True:
+print("
     
     while True:
         print("\nEnter your choice (rock, paper, or scissors). Type 'quit' to end the game.")
