@@ -38,7 +38,7 @@ def play_game():
         
         if result == "You win!":
             wins += 1
-            elif result == "Computer wins!":
+        elif result == "Computer wins!":
             losses += 1
         else:
             ties += 1
@@ -50,4 +50,3 @@ def play_game():
 
 # Start the game
 play_game()
-# my-quiz
