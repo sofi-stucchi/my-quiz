@@ -41,35 +41,34 @@ def play_game():
 
 while True:
 print("
-    
-    while True:
-        print("\nEnter your choice (rock, paper, or scissors). Type 'quit' to end the game.")
-        user_choice = input().lower()
+while True:
+    print("\nEnter your choice (rock, paper, or scissors). Type 'quit' to end the game.")
+    user_choice = input().lower()
 
-        if user_choice == 'quit':
-            break
+    if user_choice == 'quit':
+        break
         
-        if user_choice not in ['rock', 'paper', 'scissors']:
-            print("Invalid choice, please choose rock, paper, or scissors.")
-            continue
+    if user_choice not in ['rock', 'paper', 'scissors']:
+        print("Invalid choice, please choose rock, paper, or scissors.")
+        continue
         
-        computer_choice = get_computer_choice()
-        print(f"Computer chose: {computer_choice}")
+    computer_choice = get_computer_choice()
+    print(f"Computer chose: {computer_choice}")
         
-        result = determine_winner(user_choice, computer_choice)
-        print(result)
+    result = determine_winner(user_choice, computer_choice)
+    print(result)
         
-        if result == "You win!":
-            wins += 1
-        elif result == "Computer wins!":
-            losses += 1
-        else:
-            ties += 1
+    if result == "You win!":
+        wins += 1
+    elif result == "Computer wins!":
+        losses += 1
+    else:
+        ties += 1
         
-        print(f"Score: Wins: {wins} | Losses: {losses} | Ties: {ties}")
+    print(f"Score: Wins: {wins} | Losses: {losses} | Ties: {ties}")
     
-    print("\nThanks for playing!")
-    print(f"Final Score: Wins: {wins} | Losses: {losses} | Ties: {ties}")
+print("\nThanks for playing!")
+print(f"Final Score: Wins: {wins} | Losses: {losses} | Ties: {ties}")
 
 # Start the game
 play_game()
