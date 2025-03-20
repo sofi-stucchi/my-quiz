@@ -1,0 +1,3 @@
+Round with user choosing paper and computer choosing scissors: Ups! Computer wins
+Round with user choosing rock and computer choosing scissors: Congratulations!!! You win
+Round with user choosing scissors and computer choosing scissors: Tie
